@@ -5,4 +5,4 @@
 This sample application demonstrates the usage of [rich-search-addon](https://github.com/cuba-platform/rich-search-addon) for CUBA.Platform.
 
 In this demo project implements users and menu search via rich search field
-<img src="https://github.com/zharenov/rich-search-addon-demo/raw/master/resources/users-search.gif" alt="Component image example"/>
+<img src="https://raw.githubusercontent.com/cuba-platform/rich-search-addon-demo/master/resources/users-search.gif" alt="Component image example"/>
