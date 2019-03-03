@@ -44,6 +44,6 @@ public class UsersSearchStrategy implements SearchStrategy {
 
     @Override
     public String name() {
-        return "usersSearchStrategy";
+        return "searchStrategy.usersSearchStrategy";
     }
 }
