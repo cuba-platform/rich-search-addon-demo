@@ -41,7 +41,7 @@ cuba {
 
 dependencies {
     appComponent("com.haulmont.cuba:cuba-global:$cubaVersion")
-    appComponent('com.haulmont.addon.search:search-global:1.4-SNAPSHOT')
+    appComponent('com.haulmont.addon.search:search-global:1.4.0')
 
 }
 
