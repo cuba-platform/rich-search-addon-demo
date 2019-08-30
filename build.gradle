@@ -1,6 +1,6 @@
 
 buildscript {
-    ext.cubaVersion = '7.0.10'
+    ext.cubaVersion = '7.1.0'
     repositories {
         mavenLocal()
         maven {
@@ -41,7 +41,7 @@ cuba {
 
 dependencies {
     appComponent("com.haulmont.cuba:cuba-global:$cubaVersion")
-    appComponent("com.haulmont.addon.search:search-global:1.4.0")
+    appComponent("com.haulmont.addon.search:search-global:1.5-SNAPSHOT")
 
 }
 
