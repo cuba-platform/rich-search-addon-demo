@@ -1,6 +1,12 @@
 package com.haulmont.demo.richsearch.web.screens;
 
-import com.haulmont.cuba.web.app.mainwindow.AppMainWindow;
+import com.haulmont.cuba.gui.Route;
+import com.haulmont.cuba.gui.screen.UiController;
+import com.haulmont.cuba.gui.screen.UiDescriptor;
+import com.haulmont.cuba.web.app.main.MainScreen;
 
-public class ExtAppMainWindow extends AppMainWindow {
+@Route(path = "main", root = true)
+@UiDescriptor("ext-mainwindow.xml")
+@UiController("main")
+public class ExtAppMainWindow extends MainScreen {
 }
