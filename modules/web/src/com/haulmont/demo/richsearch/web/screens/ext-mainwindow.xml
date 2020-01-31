@@ -7,19 +7,21 @@
     <dialogMode height="600"
                 width="800"/>
     <layout>
-        <hbox id="horizontalWrap">
-            <vbox id="sideMenuPanel">
-                <vbox ext:index="4" margin="true">
-                    <search:richSearch id="search"
-                                       align="MIDDLE_LEFT"
-                                       width="100%"
-                                       inputPrompt="msg://search"
-                                       suggestionsLimit="200">
-                        <search:strategyBean name="search_SideMenuSearchStrategy"/>
-                        <search:strategyBean name="search_UsersSearchStrategy"/>
-                    </search:richSearch>
-                </vbox>
-            </vbox>
-        </hbox>
+        <cssLayout id="horizontalWrap">
+            <cssLayout id="sideMenuContainer">
+                <cssLayout id="sideMenuPanel">
+                    <vbox ext:index="2" margin="true">
+                        <search:richSearch id="search"
+                                           align="MIDDLE_LEFT"
+                                           width="100%"
+                                           inputPrompt="msg://search"
+                                           suggestionsLimit="200">
+                            <search:strategyBean name="search_SideMenuSearchStrategy"/>
+                            <search:strategyBean name="search_UsersSearchStrategy"/>
+                        </search:richSearch>
+                    </vbox>
+                </cssLayout>
+            </cssLayout>
+        </cssLayout>
     </layout>
 </window>
