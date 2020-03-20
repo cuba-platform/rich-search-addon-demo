@@ -10,7 +10,7 @@
         <cssLayout id="horizontalWrap">
             <cssLayout id="sideMenuContainer">
                 <cssLayout id="sideMenuPanel">
-                    <vbox ext:index="2" >
+                    <vbox ext:index="2" margin="true">
                         <search:richSearch id="search"
                                            align="MIDDLE_LEFT"
                                            width="100%"
